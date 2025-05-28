@@ -17,6 +17,7 @@ public class Utils {
 		}
 	}
 	
+	@SuppressWarnings("unchecked")
 	public static List<TruckExpense> deserialize(byte[] data) {
 		try(ObjectInputStream ois = 
 				new ObjectInputStream(new ByteArrayInputStream(data))

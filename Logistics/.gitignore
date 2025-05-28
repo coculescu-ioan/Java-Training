@@ -1,1 +1,15 @@
+# Compiled output
 /bin/
+*.class
+
+# Eclipse project files
+.project
+.classpath
+.settings/
+
+# Database files
+*.db
+*.dat
+
+# Log files
+*.log

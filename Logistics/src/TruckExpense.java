@@ -1,6 +1,5 @@
-import java.io.Serializable;
 
-public class TruckExpense extends Truck implements Payable, Serializable, Comparable<TruckExpense> {
+public class TruckExpense extends Truck implements Payable, Comparable<TruckExpense> {
 
 	private static final long serialVersionUID = 1L;
 	private double fuel_consumption;
